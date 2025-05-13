@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "no-dialog-warning",
+	"version": "${version}",
+	"name": "No Dialog Warning",
+	"description": "Removes the custom dialog warning button",
+	"authors": [
+		"lumiscosity"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/no-dialog-warning/icon.png",
+	"environment": "client",
+	"mixins": [
+		"no-dialog-warning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.5",
+		"java": ">=21"
+	}
+}
