@@ -8,8 +8,7 @@
 		"lumiscosity"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/lumiscosity/no-dialog-warning"
 	},
 	"license": "MIT",
 	"icon": "assets/no-dialog-warning/icon.png",
