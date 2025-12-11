@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "no-dialog-warning",
+	"id": "nodialogwarning",
 	"version": "${version}",
 	"name": "No Dialog Warning",
 	"description": "Removes the custom dialog warning button",
@@ -11,14 +11,12 @@
 		"sources": "https://github.com/lumiscosity/no-dialog-warning"
 	},
 	"license": "MIT",
-	"icon": "assets/no-dialog-warning/icon.png",
+	"icon": "assets/icon.png",
 	"environment": "client",
 	"mixins": [
-		"no-dialog-warning.mixins.json"
+      "nodialogwarning.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.21.5",
-		"java": ">=21"
+		"minecraft": ">=1.21.5"
 	}
 }

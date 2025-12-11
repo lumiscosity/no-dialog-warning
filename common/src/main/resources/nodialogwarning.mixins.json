@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.lumiscosity.nodialogwarning.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+      "NoDialogWarningMixin"
+  ],
+  "injectors": {
+      "defaultRequire": 1
+  }
+}
